@@ -10,7 +10,6 @@ Data:
 	const interest 		int(4).int(2) 
 
 Procedure:
-
         show_name
         show_balance
         show_interest_rate
@@ -18,7 +17,6 @@ Procedure:
         show_interest
 
 Subroutines:
-
 	show_name:
 		display "Name: {}", name
 
