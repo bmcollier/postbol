@@ -1,0 +1,15 @@
+Identification:
+	function "Calculate Interest"
+
+Import:
+	const interest_rate .int(2)
+	var balance int(4).int(2)
+
+Data:
+	var interest int(4).int(2)
+
+Procedure:
+	multiply balance by interest_rate giving interest
+
+Export:
+	interest
