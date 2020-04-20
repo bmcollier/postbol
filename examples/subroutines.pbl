@@ -1,0 +1,36 @@
+Identification:
+	function "Bank Statement"
+
+Import:
+	const name string(20)
+	const interest_rate .int(2)
+	const balance int(4).int(2)
+
+Data:
+	const interest int(4).int(2)
+
+Procedure:
+
+        show_name
+        show_balance
+        show_interest_rate
+        calculate_interest
+        show_interest
+
+Subroutines:
+
+	show_name:
+		display "Name: %s", name
+
+	show_balance:
+		display "Balance: %i", balance
+
+	show_interest_rate:
+		display "Interest Rate: %i", interest_rate
+
+	calculate_interest:
+		multiply balance by interest_rate giving interest
+
+	show_interest:
+		display "Interest: %i", interest
+
