@@ -1,0 +1,20 @@
+Identification:
+	program "Bank Front End"
+
+Calls:
+	subroutines "Bank Statement"
+
+Data:
+	const name 		string(20)
+	const interest_rate 	0.int(2)
+	const balance 		int(4).int(2)
+
+Procedure:
+	set name to "Joe Bloggs"
+	set interest rate to 0.12
+	set balance to 1000
+	call "Bank Statement" using
+		name
+		interest_rate
+		balance
+
