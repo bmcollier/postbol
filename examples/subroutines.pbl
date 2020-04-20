@@ -20,17 +20,17 @@ Procedure:
 Subroutines:
 
 	show_name:
-		display "Name: %s", name
+		display "Name: {}", name
 
 	show_balance:
-		display "Balance: %i", balance
+		display "Balance: {}", balance
 
 	show_interest_rate:
-		display "Interest Rate: %i", interest_rate
+		display "Interest Rate: {}", interest_rate
 
 	calculate_interest:
 		multiply balance by interest_rate giving interest
 
 	show_interest:
-		display "Interest: %i", interest
+		display "Interest: {}", interest
 
