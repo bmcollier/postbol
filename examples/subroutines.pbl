@@ -3,11 +3,11 @@ Identification:
 
 Import:
 	const name string(20)
-	const interest_rate .int(2)
-	const balance int(4).int(2)
+	const interest_rate 0.int(2) # For example, 0.23
+	const balance int(4).int(2) # For example, 3429.22
 
 Data:
-	const interest int(4).int(2)
+	const interest int(4).int(2) 
 
 Procedure:
 
