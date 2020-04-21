@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.10)
 project(PostBOL)
 
 # add the executable
-add_executable(pblex src/pblex.cpp)
+add_executable(pblex src/pblex.c)
