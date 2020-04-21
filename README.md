@@ -1,6 +1,8 @@
 # PostBOL
 A Postmodern Business-Oriented Language
 
+PostBOL is a statically-typed, imperative, asynchronous, literate programming language, designed for use in business systems and API. It takes design cues from COBOL, Javascript, and Python.
+
 Postbol emphasises:
 
 * Speed of execution
