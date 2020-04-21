@@ -5,9 +5,9 @@ Calls:
 	subroutines "Bank Statement"
 
 Data:
-	const name 		string(20)
-	const interest_rate 	0.int(2)
-	const balance 		int(4).int(2)
+	name 		    string(20)
+	interest_rate 	0.int(2)
+	balance 		int(4).int(2)
 
 Procedure:
 	set name to "Joe Bloggs"

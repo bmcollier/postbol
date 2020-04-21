@@ -2,10 +2,10 @@ Identification:
 	program "Simple Web Server"
 
 Data:
-	const port		int(5)
-	struct response:
-		const   code    int(3)
-        	const   message string(40)		
+	port		        int(5)
+	response:
+	    code            int(3)
+        message         string(40)
 
 Procedure:
 	#open port
