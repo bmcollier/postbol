@@ -12,7 +12,7 @@ int main(int argc, char  *argv [ ] )
     fp = fopen(argv[1], "r");
 
     if (!fp) {      /* validate file is open */
-        fprintf (stderr, "processText() error: file open failed '%s'.\n", "test");
+        fprintf (stderr, "processText() error: file open failed '%s'.\n", argv[1]);
         exit(EXIT_FAILURE);
     }
 
