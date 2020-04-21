@@ -9,8 +9,8 @@ Identification:
 	name "Calculate Interest"
 
 Data:
-	const 	interest .int(8)
-	var 	balance int(4).int(2)
+	interest    .int(8)
+	balance     int(4).int(2)
 
 In the above example, the constant named "interest" will be a decimal less than 1 with up to eight decimal places. The variable named "balance" will be an integer less than 10000 - up to 4 integer digits, followed by two integer decimal places.
 
