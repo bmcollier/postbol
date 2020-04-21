@@ -1,0 +1,21 @@
+Identification:
+	program "Simple Web Server"
+
+Data:
+	const port		int(5)
+	struct response:
+		const   code    int(3)
+        	const   message string(40)		
+
+Procedure:
+	#open port
+	#listen on port
+	#when a message received
+		#run a subroutine
+
+Subroutines:
+	create_response:
+			
+			
+	respond:
+		send response
