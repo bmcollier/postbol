@@ -2,9 +2,9 @@ Identification:
 	program "Simple Web Server"
 
 Data:
-	port		        int(5)
+	port		int(5)
 	response:
-	    code            int(3)
+	    code        int(3)
         message         string(40)
 
 Procedure:
