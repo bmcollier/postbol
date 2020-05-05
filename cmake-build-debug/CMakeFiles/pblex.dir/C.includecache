@@ -7,8 +7,14 @@
 #IncludeRegexTransform: 
 
 /Users/ben/dev/PostBOL/src/pblex.c
+pblex.h
+/Users/ben/dev/PostBOL/src/pblex.h
+
+/Users/ben/dev/PostBOL/src/pblex.h
 stdio.h
 -
 stdlib.h
+-
+string.h
 -
 
